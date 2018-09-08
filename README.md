@@ -1,8 +1,13 @@
-### Building Ring binaries for android
+# Building Ring binaries for android
 
 These scripts help building ring binary and its VM libraries for android.
 
 these scripts needs to be copied to the src folder of Ring folder hierarchy.
+
+## Prerequisites
+
+- automake
+- android ndk
 
 ## Usage
 
