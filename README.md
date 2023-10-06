@@ -2,11 +2,16 @@
 
 These scripts help building ring binary and its VM libraries for android.
 
-these scripts needs to be copied to the src folder of Ring folder hierarchy.
+These scripts needs to be copied to the src folder of Ring folder hierarchy.
+
+Note: these scripts have been tested with (Ring 1.19 source code) and (Android NDK v14.1.3816874) on (Linux Mint 21)
+
+Note: Ring built with shared lib link will not work unless the link is hard coded and correctly specified in the target android file system
 
 ## Prerequisites
 
 - automake
+- libncurses5
 - android ndk
 
 ## Usage
